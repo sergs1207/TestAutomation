@@ -1,20 +1,30 @@
 public class DeviceForCutting {
-    String type; //ножницы или машинка
-    String manufacturer;
-    float serviceLife;
+    String deviceForCuttingType; //ножницы или машинка
+    String deviceForCuttingManufacturer;
+    float deviceForCuttingServiceLife;
     int yearOfIssue;
-    boolean battery; //наличие аккамулятора
+    boolean deviceForCuttingBattery; //наличие аккамулятора
+    float deviceForCuttingWear;
+    int deviceForCuttingNozzle;
 
-    void toCut(){
-
+    public void toCut(){
+        //увеличивает на 1.0 значение атрибута deviceForCuttingWear
     }
-    void startCleaning(){
-        //начать чистку устройства
+    public void breakDown(){
+        float deviceForCuttingWear;
+        deviceForCuttingWear = 100;
     }
-    void breakDown(){
-
+    public void sendForWarrantyService(){
+        //увеличивает на 1.0 значение атрибута deviceForCuttingServiceLife
     }
-    void sendForWarrantyService(){
-
+    private void instalLargerNozzle(){
+        //увеличивает на 3 значение атрибута deviceForCuttingNozzle
+    }
+    private void installSmallerNozzle(){
+        //уменьшает на 3 значение атрибута deviceForCuttingNozzle
+    }
+    private void cutBald(){
+        int deviceForCuttingNozzle;
+        deviceForCuttingNozzle = 0;
     }
 }

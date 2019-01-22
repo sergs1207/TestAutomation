@@ -1,19 +1,30 @@
 public class AlcoholicDrinks {
-    byte alcoholVolume; //процент аклоголя на 1 литр продукта
-    String packing; //тип упаковки (тетрапак, бутылка, картонная упаковка и др.)
-    float packingVolume; //объём упаковки в литрах
-    String type; //тип напитка (слабоалкогольный или крепкий спиртной напиток)
-    String name;
-    String manufacturer;
-    boolean popularity;
+    public byte alcoholVolume; //процент аклоголя на 1 литр продукта
+    String alcoholPacking; //тип упаковки (тетрапак, бутылка, картонная упаковка и др.)
+    float alcoholPackingVolume; //объём упаковки в литрах
+    String alcoholType; //тип напитка (слабоалкогольный или крепкий спиртной напиток)
+    String alcoholName;
+    String alcoholManufacturer;
+    boolean alcoholPopularity;
+    int numberOfBottles;
+    float pricePerBottle;
 
-    void startToSetFire(){
-
+    public void drinkUp(){
+        //уменьшает на 1 значение атрибута numberOfBottles
     }
-    void startToFinish(){
-
+    public void buyMore(){
+        //увеличивает на 1 значение атрибута numberOfBottles
     }
-    void startToPour(){
-
+    public void addMoreAlcohol(){
+        //увеличивает на 5 значение атрибута alcoholVolume
+    }
+    private void dilute(){
+        //уменьшает на 5 значение атрибута alcoholVolume
+    }
+    private void increaseThePrice(){
+        //увеличивает на 1.0 значение атрибута pricePerBottle
+    }
+    private void reduceThePrice(){
+        //уменьшает на 1.0 значение атрибута pricePerBottle
     }
 }
