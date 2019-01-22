@@ -1,22 +1,37 @@
 public class Drones {
-    boolean theCamera; //наличие камеры
-    String manufacturer;
-    float thePrice; //стоимость
-    String type; //степень автономности (управляемый дистанционно или полностью автоматический)
-    float flyingHeight;
-    int yearOffIssue;
+    boolean dronesHasCamera; //наличие камеры
+    String dronesManufacturer;
+    float dronesPrice; //стоимость
+    String droneType; //степень автономности (управляемый дистанционно или полностью автоматический)
+    float dronesFlyingHeight;
+    int dronesYearOffIssue;
+    int dronesSpeed;
 
-    void blastOff() {
-
+    public void speedMode(){
+        //увеличивает на 10 значение атрибута int dronesSpeed
     }
-    void flying() {
 
+    public void slowdown(){
+        //уменьшает на 10 значение атрибута int dronesSpeed
     }
-    void landing(){
 
+    public void stand(){
+        int dronesSpeed;
+        dronesSpeed = 0;
     }
-    void falling(){
 
+    private void takeoff(){
+        //увеличивает на 100 значение атрибута int dronesFlyingHeight
+    }
+
+    private void landing(){
+        //уменьшает на 100 значение атрибута int dronesFlyingHeight
+    }
+
+    private void toFall(){
+        int dronesFlyingHeight;
+        dronesFlyingHeight = 0;
     }
 
 }
+

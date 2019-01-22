@@ -28,3 +28,4 @@ public class AlcoholicDrinks {
         //уменьшает на 1.0 значение атрибута pricePerBottle
     }
 }
+

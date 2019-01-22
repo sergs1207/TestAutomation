@@ -2,7 +2,7 @@ public class DeviceForCutting {
     String deviceForCuttingType; //ножницы или машинка
     String deviceForCuttingManufacturer;
     float deviceForCuttingServiceLife;
-    int yearOfIssue;
+    int deviceForCuttingYearOfIssue;
     boolean deviceForCuttingBattery; //наличие аккамулятора
     float deviceForCuttingWear;
     int deviceForCuttingNozzle;

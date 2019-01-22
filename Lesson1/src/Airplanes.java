@@ -1,10 +1,10 @@
 public class Airplanes {
-    byte numberOfWings;
-    int yearOfIssue;
+    byte airplanesNumberOfWings;
+    int airplanesYearOfIssue;
     int numberOfPassengers;
     String airplanesColor;
     boolean airplanesPilot; //пилотируемый самолёт, беспилотник или гибрид
-    String aiprlanesManufacturer;
+    String airplanesManufacturer;
     float volumeOfTheTank;
     int airplanesSpeed;
     int numberOfEngines;
@@ -31,8 +31,8 @@ public class Airplanes {
     }
 
     private void stand(){
-        int airplanesSpeed;
-        airplanesSpeed = 0;
+        int airplanesSpeed = 0 ;
+        airplanesSpeed =0;
     }
 
 }
