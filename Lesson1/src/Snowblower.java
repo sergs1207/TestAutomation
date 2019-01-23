@@ -1,19 +1,34 @@
 public class Snowblower {
-    String manufacturer;
-    String engineType; // тип двигателя (электрический, бензиновый, дизельный)
-    String chassisType; //тип шасси (электролопаты, колёсные, гусеничные)
-    boolean reverse; //наличие функции заднего хода
-    boolean headlights; //наличие фар
-    int thePrice;
+    String snowblowerManufacturer;
+    String snowblowerEngineType; // тип двигателя (электрический, бензиновый, дизельный)
+    String snowblowerChassisType; //тип шасси (электролопаты, колёсные, гусеничные)
+    boolean snowblowerReverse;
+    boolean snowblowerHeadlights;
+    int snowblowerPrice;
+    int snowblowerSpeed;
 
-    void turnOn(){
-
+    public void goBack(){
+        boolean snowblowerReverse;
+        snowblowerReverse = true;
     }
-    void turnOff(){
-
+    public void goForward(){
+        boolean snowblowerReverse;
+        snowblowerReverse = false;
     }
-    void cleanTheSnow(){
-
+    public void useHeadlights(){
+        boolean snowblowerHeadlights;
+        snowblowerHeadlights = true;
+    }
+    private void turnOffHeadlights(){
+        boolean snowblowerHeadlights;
+        snowblowerHeadlights = false;
+    }
+    private void lateForParty(){
+        //увеличивает на 100 значение атрибута snowblowerSpeed
+    }
+    private void turnОffTheSnowblower(){
+        int snowblowerSpeed;
+        snowblowerSpeed = 0;
     }
 
 }
