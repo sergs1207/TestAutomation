@@ -1,19 +1,30 @@
 public class Food {
-    float protein;
-    float fats;
-    float carbohydrates;
-    boolean vitamins;
+    float foodProtein;
+    float foodFats;
+    float foodCarbohydrates;
+    boolean foodVitamins;
     String kindOfFood; //растительная или животная
-    String name;
+    String foodName;
+    int foodTaste;
 
-    void toEat(){
-
+    public void fryInOil(){
+        //увеличивает на 10.0 значение атрибута foodFats
     }
-    void toCook(){
-
+    public void steamed(){
+        boolean foodVitamins;
+        foodVitamins = true;
     }
-    void throwOut(){
-
+    public void boilInWater(){
+        boolean foodVitamins;
+        foodVitamins = false;
     }
-
+    private void addSugar(){
+        //увеличивает на 10.0 значение атрибута foodCarbohydrates
+    }
+    private void toSalt(){
+        //увеличивает на 10 значение атрибута foodTaste
+    }
+    private void toSaltAndPepper(){
+        //увеличивает на 25 значение атрибута foodTaste
+    }
 }
