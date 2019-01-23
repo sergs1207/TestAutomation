@@ -31,7 +31,7 @@ public class Airplanes {
     }
 
     private void stand(){
-        int airplanesSpeed = 0 ;
+        int airplanesSpeed;
         airplanesSpeed =0;
     }
 

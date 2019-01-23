@@ -1,21 +1,30 @@
 public class PC {
-    String manufacturer;
-    String type; //стационарный, ноутбук, неттоп и т.д.
-    String model;
-    boolean diskDrive; //наличие дисковода
-    float thePrice;
-    String operatingSystem;
+    String pcManufacturer;
+    String pcType; //стационарный, ноутбук, неттоп и т.д.
+    String pcModel;
+    boolean pcDiskDrive; //наличие дисковода
+    float pcPrice;
+    String pcOperatingSystem;
+    float pcLoadingRAM;
+    float pcAvailableMemory;
+    int pcScreenBrightness;
 
-    void turnOn(){
-
+    public void launchTheApplication(){
+        //увеличивает на 10.0 значение атрибута pcLoadingRAM
     }
-    void turnOff(){
-
+    public void disableApplication(){
+        //уменьшает на 10.0 значение атрибута pcLoadingRAM
     }
-    void installAplication(){
-
+    public void installApp(){
+        //уменьшает на 10.0 значение атрибута pcAvailableMemory
     }
-    void launchTheApplication(){
-
+    private void removeApp(){
+        //увеличивает на 10.0 значение атрибута pcAvailableMemory
+    }
+    private void makeScreenBrighter(){
+        //увеличивает на 5 значение атрибута pcScreenBrightness
+    }
+    private void makeLessBrightScreen(){
+        //уменьшает на 5 значение атрибута pcScreenBrightness
     }
 }
