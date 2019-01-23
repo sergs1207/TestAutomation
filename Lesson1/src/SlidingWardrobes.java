@@ -1,21 +1,30 @@
 public class SlidingWardrobes {
-    String material; //из чего изготовлен шкаф
-    boolean mirror; //наличие зеркала
-    int shelves;
-    int height;
-    int width;
+    String slidingWardrobesMaterial; //из чего изготовлен шкаф
+    boolean slidingWardrobesMirror; //наличие зеркала
+    int slidingWardrobesNumberFreeShelves;
+    int slidingWardrobesHeight;
+    int slidingWardrobesWidth;
+    int slidingWardrobesClianliness;
 
-    void toOpen(){
-
+    public void installMirror(){
+        boolean slidingWardrobesMirror;
+        slidingWardrobesMirror = true;
     }
-    void toClose(){
-
+    public void breakTheMirror(){
+        boolean slidingWardrobesMirror;
+        slidingWardrobesMirror = false;
     }
-    void hangThings(){
-
+    public void putThingsInTheCloset(){
+        //уменьшает на 1 значение атрибута slidingWardrobesNumberFreeShelves
     }
-    void cleanTheCloset(){
-        //убраться в шкафу
+    private void removeThingsFromTheCloset(){
+        //увеличивает на 1 значение атрибута slidingWardrobesNumberFreeShelves
+    }
+    private void wipeShelves(){
+        //увеличивает на 5 значение атрибута slidingWardrobesClianliness
+    }
+    private void trashInCloset(){
+        //уменьшает на 5 значение атрибута slidingWardrobesClianliness
     }
 
 }
