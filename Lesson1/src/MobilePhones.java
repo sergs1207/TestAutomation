@@ -1,21 +1,34 @@
 public class MobilePhones {
-    String manufacturer;
-    String phoneModel;
-    String type; //тип телефона (смартфон, КПК, одноразовый телефон, бабушкофон/дедушкофон)
-    boolean operatingSystem; //наличие полноценной операционной системы
-    boolean theCamera;
-    int batteryCapacitu;
+    String mobilePhonesManufacturer;
+    String mobilePhonesPhoneModel;
+    String mobilePhonesType; //тип телефона (смартфон, КПК, одноразовый телефон, бабушкофон/дедушкофон)
+    string mobilePhonesOperatingSystem;
+    boolean mobilePhonesTheCamera;
+    int mobilePhonesBatteryCapacity;
+    boolean mobilePhonesScreenLock;
+    boolean mobilePhonesFlashlight;
 
-    void startCalling(){
-
+    public void toChargeBattery(){
+        //увеличивает на 10 значение атрибута mobilePhonesBatteryCapacity
     }
-    void endTheCall(){
-
+    public void startCall(){
+        //уменьшает на 10 значение атрибута mobilePhonesBatteryCapacity
     }
-    void chargeTheBattery(){
-
+    public void lockScreen(){
+        boolean mobilePhonesScreenLock;
+        mobilePhonesScreenLock = true;
     }
-    void toDrop(){
-
+    private void unlockScreen(){
+        boolean mobilePhonesScreenLock;
+        mobilePhonesScreenLock = false;
     }
+    private void turnOnFlashlight(){
+        boolean mobilePhonesFlashlight;
+        mobilePhonesFlashlight = true;
+    }
+    private void turnOffFlashlight(){
+        boolean mobilePhonesFlashlight;
+        mobilePhonesFlashlight = false;
+    }
+
 }
